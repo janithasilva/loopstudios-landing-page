@@ -1,0 +1,138 @@
+.gallery{
+    margin-bottom:4.1rem
+  }
+  .gallery-wrapper{
+    width:86%;
+    max-width:1114px;
+    margin-left:auto;
+    margin-right:auto;
+    display:grid
+  }
+  
+  .gallery-subtitle{
+    font-size:2rem;
+    text-align:left;
+    position: absolute;
+  }
+  
+  .gallery-button{
+    margin-left:auto;
+    margin-right:0;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+  
+  .gallery-card{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-column:1/-1;
+    row-gap:1.6rem;
+    -moz-column-gap:2rem;
+    column-gap:2rem
+  }
+  
+  .gallery-card-item:nth-child(1){
+    background-image:url("../../Assets/Img/image-deep-earth.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(2){
+    background-image:url("../../Assets/Img/image-night-arcade.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(3){
+    background-image:url("../../Assets/Img/image-soccer-team.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(4){
+    background-image:url("../../Assets/Img/image-grid.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(5){
+    background-image:url("../../Assets/Img/image-from-above.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(6){
+    background-image:url("../../Assets/Img/image-pocket-borealis.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(7){
+    background-image:url("../../Assets/Img/image-curiosity.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item:nth-child(8){
+    background-image:url("../../Assets/Img/image-fisheye.jpg");
+    background-size:cover;
+    background-position:center
+  }
+  
+  .gallery-card-item{
+    max-width:256px;
+    height:450px;
+    background-size:cover;
+    background-position:center;
+    font-size:1.5rem;
+    color:#fff;
+    cursor:pointer;
+    transform:scale(1);
+    padding:20px;
+    font-size:2rem;
+    display: flex;
+    align-items:flex-end;
+    position:relative;
+  }
+  .gallery-card-item::before{
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 15%, rgba(255, 255, 255, 0) 65%);
+    transition:background-image .5s;
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0
+  }
+  .gallery-card-item:hover{
+    color:#000;
+    transform:scale(0.98);
+    transition:transform .5s
+  }
+  .gallery-card-item:hover::before{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.8) 100%, rgba(0, 0, 0, 0.6) 0%)
+  }
+  
+  .gallery-card-title{
+    width:70%;
+    position:absolute
+  }
+  
+  .button{
+    display:block;
+    border-style:none;
+    border:1px solid;
+    padding:12px 2.4rem;
+    background-color:inherit;
+    transition:color .5s,background-color .5s;
+    color:inherit;
+    text-transform:uppercase;
+    letter-spacing:5px
+  }
+  
+  .button:hover{
+    cursor:pointer;
+    color:#fff;
+    background-color:#000;
+    transition:color .5s,background-color .5s
+  }

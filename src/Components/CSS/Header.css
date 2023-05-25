@@ -1,0 +1,94 @@
+header{
+    height:100vh;
+    background-image:url("../../Assets/Img/image-hero.jpg");
+    background-size:cover;
+    background-position:center top;
+    display:grid;
+    align-items:start
+  }
+  
+  header nav{
+    display:block
+  }
+  
+  .navbar{
+    padding-top:3.5rem;
+    padding-bottom:3.5rem;
+  }
+  
+  .title-wrapper{
+    width:86%;
+    max-width:1114px;
+    margin-left:auto;
+    margin-right:auto
+  }
+  .title{
+    max-width:652px;
+    padding:40px;
+    border:2px solid;
+    margin-top:0;
+    margin-bottom:0;
+    font-size:4.5rem;
+    color:#fff;
+    line-height:1
+  }
+  
+  .navbar-wrapper{
+    width:86%;
+    height:25px;
+    max-width:1114px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+  }
+  .navbar-logo{
+    display:block;
+    width:150px
+  }
+  
+  .navbar__menu-icon{
+    cursor:pointer
+  }
+  
+  ul.header-menu li.header-menu-item a.header-menu-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  ul.footer-menu li.footer-menu-item a.footer-menu-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .header-menu-link::after,.footer-menu-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s, left 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+  }
+  
+  .header-menu-link:hover::after,.footer-menu-link:hover::after {
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+  }
+  
+  .header-menu,.footer-menu{
+    list-style-type:none;
+    padding-left:0;
+    display:flex;
+    flex-direction:row;
+    column-gap:2rem;
+    row-gap:1.45rem;
+    text-decoration: none;
+    color: #fff;
+  }
