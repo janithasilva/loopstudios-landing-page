@@ -22,3 +22,27 @@ h1,h2,span{
 p,a,button{
   font-family:"Alata",sans-serif
 }
+
+.js-fixed-logo{
+  left:7.5%
+}
+
+.js-fixed-menu{
+  right:7.5%
+}
+
+.js-move-right{
+  -webkit-animation:move-right .8s ease-in-out;
+  animation:move-right .8s ease-in-out
+}
+
+.js-header-nav{
+  display:block;
+  width:100%;
+  height:100vh;
+  background-color:#000;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:10
+}

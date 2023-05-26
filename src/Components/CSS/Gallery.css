@@ -155,7 +155,7 @@
   
     .gallery-card-item {
       max-width: 100%;
-      height: 7rem;
+      height: 5rem;
       font-size: 1.5rem;
       display: flex;
       align-items:flex-end;
@@ -174,7 +174,7 @@
     }
   
     .gallery-card-title {
-      width:50%;
+      width:35%;
       position:absolute
     }
   
@@ -188,7 +188,7 @@
       margin-left:auto;
       margin-right:auto;
       margin-top:2rem;
-      margin-bottom:2rem;
+      margin-bottom:1rem;
       order:3
     }
   

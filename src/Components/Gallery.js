@@ -15,7 +15,7 @@ class Gallery extends React.Component {
               <div className="gallery-card-item "><span className="gallery-card-title">Deep earth</span></div>
               <div className="gallery-card-item "><span className="gallery-card-title">Night arcade</span></div>
               <div className="gallery-card-item "><span className="gallery-card-title">Soccer team VR</span></div>
-              <div className="gallery-card-item "><span className="gallery-card-title">The grid</span></div>
+              <div className="gallery-card-item "><span className="gallery-card-title" style={{width:'30%'}}>The grid</span></div>
               <div className="gallery-card-item "><span className="gallery-card-title">From up above VR</span></div>
               <div className="gallery-card-item "><span className="gallery-card-title">Pocket borealis</span></div>
               <div className="gallery-card-item "><span className="gallery-card-title">The curiosity</span></div>
