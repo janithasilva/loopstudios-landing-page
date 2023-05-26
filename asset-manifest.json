@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/loopstudios-landing-page/static/css/main.d10f41b0.css",
-    "main.js": "/loopstudios-landing-page/static/js/main.bbbcc3a8.js",
+    "main.css": "/loopstudios-landing-page/static/css/main.6fe41456.css",
+    "main.js": "/loopstudios-landing-page/static/js/main.2761f4ab.js",
     "static/js/787.e2bce2fa.chunk.js": "/loopstudios-landing-page/static/js/787.e2bce2fa.chunk.js",
     "static/media/image-hero.jpg": "/loopstudios-landing-page/static/media/image-hero.3de81110dee4f75f44f9.jpg",
     "static/media/Alata-Regular.ttf": "/loopstudios-landing-page/static/media/Alata-Regular.e834207edf981b875022.ttf",
@@ -21,12 +21,13 @@
     "index.html": "/loopstudios-landing-page/index.html",
     "static/media/icon-twitter.svg": "/loopstudios-landing-page/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
     "static/media/icon-facebook.svg": "/loopstudios-landing-page/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
-    "main.d10f41b0.css.map": "/loopstudios-landing-page/static/css/main.d10f41b0.css.map",
-    "main.bbbcc3a8.js.map": "/loopstudios-landing-page/static/js/main.bbbcc3a8.js.map",
+    "static/media/icon-hamburger.svg": "/loopstudios-landing-page/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
+    "main.6fe41456.css.map": "/loopstudios-landing-page/static/css/main.6fe41456.css.map",
+    "main.2761f4ab.js.map": "/loopstudios-landing-page/static/js/main.2761f4ab.js.map",
     "787.e2bce2fa.chunk.js.map": "/loopstudios-landing-page/static/js/787.e2bce2fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d10f41b0.css",
-    "static/js/main.bbbcc3a8.js"
+    "static/css/main.6fe41456.css",
+    "static/js/main.2761f4ab.js"
   ]
 }
