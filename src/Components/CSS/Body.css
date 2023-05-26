@@ -46,3 +46,34 @@
     text-align:left;
     line-height:1.7
   }
+
+  @media (max-width: 767px) {
+    .body {
+      padding-top: 3.125rem;
+      padding-bottom: 1.625rem;
+      align-items: center;
+    }
+  
+    .body-img {
+      margin-bottom: 2rem;
+    }
+  
+    .body-content {
+      width: 80%;
+      max-width: 100%;
+      margin-top: 0;
+      margin-left: 0;
+      height: auto;
+      padding: 40px;
+    }
+  
+    .body-content-subtitle {
+      font-size: 2rem;
+      text-align: center;
+      line-height: 1.2;
+    }
+  
+    .body-content-paragraph {
+      text-align: center;
+    }
+  }
