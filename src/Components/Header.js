@@ -24,7 +24,7 @@ class Header extends Component {
     return (
       <div>
         <header>
-          <div id="navbar" className={`navbar ${isMenuOpen ? 'menu-open' : ''}`}>
+          <div id="navbar" className="navbar">
             <div className="navbar-wrapper">
               <img className="logo navbar-logo" src={svglogo} alt="Loopstudios logo" />
 
@@ -37,7 +37,10 @@ class Header extends Component {
               />
 
               <nav>
-                <ul className={`header-menu ${isMenuOpen ? 'show' : ''}`}>
+                <ul
+                  className="header-menu"
+                  style={{ display: isMenuOpen ? 'block' : 'none' }}
+                >
                   <li className="header-menu-item">
                     <a className="header-menu-link" href="#" title="About">
                       About
